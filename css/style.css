@@ -385,6 +385,26 @@ li {
   margin: 50px auto;
   display: flex;
   justify-content: space-between;
+  gap: 40px;
+}
+.web2_design2 {
+  width: 80%;
+  margin: 50px auto;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.apple_title{
+  border-left: 3px solid #1c62e3;
+  padding-left: 10px;
+  margin: 10px 0;
+  color: #1c62e3;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.apple_text{
+  margin-top: 10px;
+  max-width: 800px;
 }
 
 .persona {
@@ -710,6 +730,9 @@ align-items: center; */
 
   .inner {
     padding: 0;
+  }
+  .web2_design{
+    display: block;
   }
 
   /* Skill */
