@@ -161,6 +161,13 @@ li {
   background-position: center center;
   background-size: cover;
 } */
+.fv{
+  font-size: 3rem;
+  margin: 200px auto;
+  text-align:center;
+  font-family: serif;
+  color: #737d6d;
+}
 
 /*--------------------------------
  プロフィール
@@ -214,6 +221,13 @@ li {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 60px;
+  margin: 0 auto;
+}
+.works-list2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 60px;
+  justify-content: start;
   margin: 0 auto;
 }
 
